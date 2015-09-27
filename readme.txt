@@ -1,6 +1,6 @@
 === tas2580 Flasch Index ===
 Contributors: tas2580
-Donate link: https://tas2580.net/downloads/download-1.html
+Donate link: https://tas2580.net/downloads/download-18.html
 Tags: content, flasch
 Requires at least: 3.0.1
 Tested up to: 4.3.1
