@@ -1,4 +1,4 @@
-=== tas2580 Flesch Index ===
+=== tas2580 Readability Index ===
 Contributors: tas2580
 Donate link: https://tas2580.net/downloads/download-18.html
 Tags: content, flesch, readability
