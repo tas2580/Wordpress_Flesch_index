@@ -1,7 +1,7 @@
-=== tas2580 Flasch Index ===
+=== tas2580 Flesch Index ===
 Contributors: tas2580
 Donate link: https://tas2580.net/downloads/download-18.html
-Tags: content, flasch
+Tags: content, flesch, readability
 Requires at least: 3.0.1
 Tested up to: 4.3.1
 Stable tag: 1.0.0
@@ -12,14 +12,14 @@ Calculate and display the Flesch-Reading-Ease-Score of an article.
 
 == Description ==
 
-This Plugin calculates the Flasch Index for the content of an article and displays it at the bottom of the article.
+This Plugin calculates the Flesch readability index for the content of an article and displays it at the bottom of the article.
 
-For more information about the Flasch Index see: https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
+For more information about the Flesch readability index see: https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
 
 
 == Installation ==
 
-1. Upload `flasch-index` to the `/wp-content/plugins/` directory
+1. Upload `readability-index` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==

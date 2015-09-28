@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Flasch Index
+Plugin Name: Flesch Index
 Plugin URI: https://tas2580.net/downloads/download-1.html
 Description: Calculate and display the Flesch-Reading-Ease-Score of an article
 Version: 1.0.0
@@ -10,20 +10,20 @@ License: GPLv2
 */
 
 
-add_filter('the_content', 'tas2580_flasch_index');
+add_filter('the_content', 'tas2580_flesch_index');
 
 /**
  * Display the Flesch-Reading-Ease-Score to the article
- * 
+ *
  * @param	string	$content	The page content
  */
-if(!function_exists('tas2580_flasch_index'))
+if(!function_exists('tas2580_flesch_index'))
 {
-	function tas2580_flasch_index($content)
+	function tas2580_flesch_index($content)
 	{
 		if(is_single())
 		{
-			$content = $content . '<p>Flesch-Reading-Ease-Score: <b>' . analyze_flasch($content) . '</b></p>';
+			$content = $content . '<p>Flesch-Reading-Ease-Score: <b>' . analyze_flesch($content) . '</b></p>';
 		}
 		return $content;
 	}
@@ -31,12 +31,12 @@ if(!function_exists('tas2580_flasch_index'))
 
 /**
  * ACalculates the Flasch Index
- * 
+ *
  * @param	string	$text	The text for which the Flasch Index is to be calculated
  */
-if(!function_exists('analyze_flasch'))
+if(!function_exists('analyze_flesch'))
 {
-	function analyze_flasch($text)
+	function analyze_flesch($text)
 	{
 		$num_words = $syllables = 0;
 		$text = strip_tags($text);
