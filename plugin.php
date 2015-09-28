@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Flesch Index
-Plugin URI: https://tas2580.net/downloads/download-1.html
+Plugin URI: https://tas2580.net/downloads/download-18.html
 Description: Calculate and display the Flesch-Reading-Ease-Score of an article
 Version: 1.0.0
 Author: tas2580
